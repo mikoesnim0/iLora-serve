@@ -1,0 +1,208 @@
+    1  curl -X POST http://localhost:8000/v1/chat/completions ^
+    2  curl -X POST http://localhost:8000/v1/chat/completions -H "Content-Type: application/json"-d @test/data.json
+    3  wsl --set-default Ubuntu
+    4  --set-default Ubuntu
+    5  exit
+    6  ls
+    7  clear
+    8  cat ~/.wslconfig
+    9  cat /.wslconfig
+   10  cat ~../.wslconfig
+   11  cat ~/../wslconfig
+   12  cat /home/wslconfig
+   13  pip install .
+   14  python setup.py install
+   15  python3 setup.py install
+   16  python3 pip install .
+   17  python3 install .
+   18  python3 setup.py install
+   19  sudo apt update && sudo apt install python3-pip -y
+   20  pip --version
+   21  pip intall .
+   22  pip install .
+   23  apt install python3-xyz
+   24  apt install python3-.
+   25  sudo apt install python3-dev build-essential libssl-dev libffi-dev
+   26  pip install .
+   27  mkdir -p my_project/src/data
+   28  mkdir -p my_project/tests
+   29  touch my_project/Dockerfile
+   30  touch my_project/docker-compose.yml
+   31  touch my_project/requirements.txt
+   32  touch my_project/src/main.py
+   33  touch my_project/src/utils.py
+   34  touch my_project/src/data/sample.csv
+   35  touch my_project/tests/test_main.py
+   36  touch my_project/.gitignore
+   37  touch my_project/README.md
+   38  cd my*
+   39  git init
+   40  git branch -b main
+   41  git branch -m master main
+   42  git branch
+   43  git status
+   44  git config --list
+   45  git --global config user.name "mikoesnim0"
+   46  git config --global user.name "mikoesnim0"
+   47  git config --global user.email mikoesnim02@gmail.com
+   48  git config --list
+   49  git remote -v
+   50  git remote add origin git@github.com:mikoesnim0/iLora-serve.git
+   51  git remote -v
+   52  git pull origin main
+   53  exit
+   54  mkdir -p ~/.ssh
+   55  cp /mnt/c/Users/cha/.ssh/id_rsa* ~/.ssh/
+   56  ls
+   57  pwd ~
+   58  ls /mnt/c/Users/cha
+   59  ls -a /mnt/c/Users/cha
+   60  ls -a /mnt/c/Users/cha/.ssh
+   61  cp /mnt/c/Users/cha/.ssh/* ~/.ssh/
+   62  ls ~/.ssh
+   63  ls ~/.ssh -l
+   64  ssh -T git@github.com
+   65  chmod 700 ~/.ssh
+   66  ssh -T git@github.com
+   67  chmod 644 ~/.ssh/known_hosts
+   68  ssh -T git@github.com
+   69  chmod 644 ~/.ssh
+   70  ssh -T git@github.com
+   71  chmod 700 ~/.ssh
+   72  chmod 644 ~/.ssh/known_hosts
+   73  ssh -T git@github.com
+   74  git pull origin main
+   75  sudo chown -R $(whoami):$(whoami) ~/.ssh
+   76  ssh -T git@github.com
+   77  cha@DESKTOP-5A9BEKT:/mnt/c/Users/cha/Desktop/Research/챗봇 프로젝트/12월_RAG/ilora_serve$ sudo chown -R $(whoami):$(whoami) ~/.ssh
+   78  cha@DESKTOP-5A9BEKT:/mnt/c/Users/cha/Desktop/Research/챗봇 프로젝트/12월_RAG/ilora_serve$ ssh -T git@github.com
+   79  git@github.com: Permission denied (publickey).ls -l ~/.ssh
+   80  ls -l ~/.ssh
+   81  ls -al ~/.ssh
+   82  ls /mnt/c/Users/cha/.ssh/*
+   83  ls /mnt/c/Users/cha/.ssh/* -a
+   84  ls /mnt/c/Users/cha/.ssh/
+   85  ls /mnt/c/Users/cha/.ssh/ -a
+   86  ls /mnt/c/Users/cha/.ssh/ -al
+   87  ls
+   88  chmod 777 ~/.ssh
+   89  ssh -T git@github.com
+   90  chmod 000 ~/.ssh
+   91  ssh -T git@github.com
+   92  rmdir ~/.ssh
+   93  rmdir ~/.ssh -r
+   94  rmdir ~/.ssh -f
+   95  rm -r ~/.ssh
+   96  chmod 777 ~/.ssh
+   97  rm -r ~/.ssh
+   98  ls ~
+   99  ls -l ~
+  100  ls -al ~
+  101  ssh-keygen -t ed25519 -C "mikoesnim02@gmail.com"
+  102  cat ~/.ssh/id_ed25519.pub
+  103  git pull origin main
+  104  ssh -T git@github.com
+  105  git pull origin main
+  106  git remote -v
+  107  git remote set-url origin git@github.com:mikoesnim0/iLora-serve.git
+  108  git pull origin main
+  109  git status
+  110  pwd
+  111  cd my_project
+  112  git status
+  113  git remove -v
+  114  git remote -v
+  115  git pull origin main
+  116  git log --oneline
+  117  git branch
+  118  git status
+  119  git add .
+  120  git commit -m "initial settings for dockerfile"
+  121  git push origin main
+  122  git pull origin main
+  123  git push origin main
+  124  git status
+  125  git rebase
+  126  git fetch origin main
+  127  git log --oneline
+  128  git remote -v
+  129  git rebase origin main
+  130  git rebase origin/main
+  131  exit
+  132  git status
+  133  git push origin main
+  134  git push origin main --force
+  135  git status
+  136  git add .
+  137  git commit -m "add .gitignore for dockerfile version with resolving push errors"
+  138  git push origin main
+  139  git config --global core.editor "code"
+  140  git config --global merge.conflictstyle diff3
+  141  git pull origin main
+  142  git status
+  143  git rebase --continue
+  144  git status
+  145  git push origin main
+  146  git push origin main --force
+  147  git status
+  148  git pull origin main
+  149  git status
+  150  git rebase
+  151  git status
+  152  git rebase --continue
+  153  uvloo
+  154  docker --version
+  155  ls
+  156  exit
+  157  docker build -t my_project_image .
+  158  cd ..
+  159  docker build -t my_project_image .
+  160  docker run -it --name my_project_container -p 8080:8080 my_project_image
+  161  docker login
+  162  docker info
+  163  docker info |grep user
+  164  docker tag my_project_image mikoesnim02/my_project_image:latest
+  165  docker push mikoesnim02/my_project_image:latest
+  166  docker login
+  167  docker tag my_project_image mikoesnim02/my_project_image:latest
+  168  docker push mikoesnim02/my_project_image:latest
+  169  cat ~/.docker/config.json
+  170  docker tag my_project_image mikoesnim02@gmail.com/my_project_image:latest
+  171  docker tag my_project_image mikoesnim643/my_project_image:latest
+  172  docker push mikoesnim643/my_project_image:latest
+  173  docker ps -a
+  174  ./terminate.sh
+  175  git status
+  176  cd my*
+  177  git status
+  178  ls
+  179  ls -a
+  180  rm -r .git
+  181  cd ..
+  182  git init
+  183  git config --global --list
+  184  git remote set-origin git@github.com:mikoesnim0/iLora-serve.git
+  185  git remote add origin git@github.com:mikoesnim0/iLora-serve.git
+  186  git push origin main --force
+  187  git status
+  188  git add .
+  189  git commit -m "new files changed and first initialized"
+  190  git push origin main --force
+  191  git branch
+  192  git branch -m master main
+  193  git branch
+  194  git push origin main --force
+  195  git status
+  196  docker ps -a
+  197  ./terminate.sh
+  198  git push origin main
+  199  git status
+  200  git add .
+  201  git commit -m "initiate.sh added for pull"
+  202  git push origin main
+  203  exit
+  204  ./initiate.sh
+  205  ./terminate.sh
+  206  exit
+  207  history
+  208  history >./log.txt
