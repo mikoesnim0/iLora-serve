@@ -3,6 +3,8 @@
 # 사용자 설정
 DOCKERHUB_USERNAME="mikoesnim643" # Docker Hub 사용자 이름
 IMAGE_NAME="my_project_image"               # 이미지 이름
+CONTAINER_NAME="my_project_container"
+
 WORKDIR=$(pwd)/my_project                   # 현재 작업 디렉토리 유지
 
 echo "=== Starting Docker container ==="
