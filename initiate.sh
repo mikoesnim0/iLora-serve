@@ -14,8 +14,8 @@ echo "Pulling the latest Docker image..."
 docker pull $DOCKERHUB_USERNAME/$IMAGE_NAME:latest
 
 # Step 2: Docker 이미지 빌드
-echo "Building the Docker image..."
-docker build -t $IMAGE_NAME .
+# echo "Building the Docker image..."
+# docker build -t $IMAGE_NAME .
 
 # Step 3: 로컬 디렉토리 유지 및 Docker 컨테이너 실행
 echo "Starting a new container from the latest image..."
