@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .  # 현재 디렉토리 기준으로 Dockerfile 빌드
+    volumes:
+      - .:/app    # 로컬 디렉토리와 컨테이너 동기화
+    ports:
+      - "8888:8888"  # 필요 시 Jupyter Notebook 사용
+    tty: true       # 터미널 인터페이스 활성화
+    command: bash   # 기본 명령어를 bash로 설정

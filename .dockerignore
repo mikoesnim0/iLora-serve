@@ -1,0 +1,16 @@
+# Python 빌드 아티팩트
+__pycache__/
+*.pyc
+*.pyo
+
+# 패키징 디렉토리
+build/
+dist/
+*.egg-info
+
+# 환경 파일 제외 (필요 시)
+.env
+
+# 기타 불필요 파일
+*.log
+.DS_Store
