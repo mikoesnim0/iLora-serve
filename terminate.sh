@@ -35,6 +35,11 @@ docker push $DOCKERHUB_USERNAME/$IMAGE_NAME:$DATE-${VERSION:-no-version}
 
 echo "=== Docker container changes pushed ==="
 
+# (2) 컨테이너 중지
+echo "=== Stopping the Docker container ==="
+docker stop "$CONTAINER_NAME"
+
+
 # Git 업데이트
 git add .
 git commit -m "$COMMIT_MESSAGE (Version $VERSION on $DATE)"
