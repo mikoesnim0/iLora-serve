@@ -38,3 +38,7 @@ plaintext
 IMAGE_NAME=my_project_image
 CONTAINER_NAME=my_project_container
 DOCKERHUB_USERNAME=your_dockerhub_username
+
+## Settings of docker:
+1. wsl - ubuntu build.
+2. docker settings -> WSL integration -> enable
